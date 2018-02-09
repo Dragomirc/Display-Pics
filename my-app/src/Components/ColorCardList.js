@@ -4,7 +4,7 @@ import ColorCard from "./ColorCard";
 const colors = ["red", "yellow", "green", "purple"];
 const ColorCardList = props => {
   const colorItems = colors.map(color => {
-    return <ColorCard color={color} onColorSelect={props.onColorSelect} />;
+    return <ColorCard color={color} info={props.info} />;
   });
 
   return <ul>{colorItems}</ul>;
