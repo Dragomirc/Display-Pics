@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ColorCardList from "./ColorCardList";
+import ImageCardList from "./ImageCardList";
 
 class App extends Component {
   constructor(props) {
@@ -15,8 +16,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <ColorCardList info={this.handleChange} />
+      <div>
+        <div>
+          <ColorCardList info={this.handleChange} />
+        </div>
+        <div>
+          <ImageCardList images={this.state.images} />
+        </div>
       </div>
     );
   }

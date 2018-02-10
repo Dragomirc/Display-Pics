@@ -42,12 +42,11 @@ const ColorCard = props => {
 
   return (
     <li
+      style={{ backgroundColor: props.color }}
       onClick={() =>
         onColorSelect(props.color, searchTerms[generateSearchTerm(searchTerms)])
       }
-    >
-      <div />
-    </li>
+    />
   );
 };
 
