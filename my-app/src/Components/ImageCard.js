@@ -1,8 +1,10 @@
 import React from "react";
-const ImageCard = ({ previewURL, tags }) => {
+const ImageCard = ({ previewURL, url, tags }) => {
   return (
     <li>
-      <img src={previewURL} alt={tags} />
+      <a href={url}>
+        <img src={previewURL} alt={tags} />
+      </a>
     </li>
   );
 };
