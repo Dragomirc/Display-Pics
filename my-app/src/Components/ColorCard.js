@@ -1,26 +1,7 @@
 import React from "react";
+import { generateSearchTerm, searchTerms } from "../logic";
 const API_KEY = "7992273-497c1e332db1f866e31f42872";
-const searchTerms = [
-  "man",
-  "mountain",
-  "state",
-  "ocean",
-  "country",
-  "building",
-  "cat",
-  "airline",
-  "wealth",
-  "happiness",
-  "pride",
-  "fear",
-  "religion",
-  "bird",
-  "book",
-  "phone",
-  "rice",
-  "snow",
-  "water"
-];
+
 const ColorCard = props => {
   const onColorSelect = (color, searchTerm) => {
     fetch(
@@ -30,6 +11,7 @@ const ColorCard = props => {
         if (res.status !== 200) {
           console.log("Something went wrong with the request");
         }
+
         return res.json();
       })
       .then(images => props.info(images))
@@ -37,8 +19,6 @@ const ColorCard = props => {
         throw new Error("Fetching failed");
       });
   };
-  const generateSearchTerm = array =>
-    Math.floor(Math.random() * (array.length + 1));
 
   return (
     <li
