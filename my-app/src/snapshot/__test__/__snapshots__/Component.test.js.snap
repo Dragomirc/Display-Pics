@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 4 x ColorCards 1`] = `
+<ul>
+  <li
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+      }
+    }
+  />
+  <li
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "yellow",
+      }
+    }
+  />
+  <li
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "green",
+      }
+    }
+  />
+  <li
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "purple",
+      }
+    }
+  />
+</ul>
+`;
+
+exports[`App renders without crashing 1`] = `
+<div>
+  <div>
+    <ul>
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "yellow",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "green",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "purple",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div>
+    <ul />
+  </div>
+</div>
+`;
+
+exports[`App should render with 5 x ImageCard components when the state is updated 1`] = `
+<div>
+  <div>
+    <ul>
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "red",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "yellow",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "green",
+          }
+        }
+      />
+      <li
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "purple",
+          }
+        }
+      />
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li>
+        <a
+          href="https://pixabay.com/en/domestic-cat-little-cute-kitten-3133620/"
+        >
+          <img
+            alt={undefined}
+            src="https://cdn.pixabay.com/photo/2018/02/06/00/20/domestic-3133620_150.jpg"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://pixabay.com/en/cat-red-cute-mackerel-tiger-sweet-3080965/"
+        >
+          <img
+            alt={undefined}
+            src="https://cdn.pixabay.com/photo/2018/01/13/23/28/cat-3080965_150.jpg"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://pixabay.com/en/cat-red-cute-mackerel-tiger-sweet-1652880/"
+        >
+          <img
+            alt={undefined}
+            src="https://cdn.pixabay.com/photo/2016/09/07/23/10/cat-1652880_150.jpg"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://pixabay.com/en/cat-red-sleep-cute-mackerel-tiger-3080966/"
+        >
+          <img
+            alt={undefined}
+            src="https://cdn.pixabay.com/photo/2018/01/13/23/28/cat-3080966_150.jpg"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://pixabay.com/en/cat-wink-funny-fur-animal-red-1333926/"
+        >
+          <img
+            alt={undefined}
+            src="https://cdn.pixabay.com/photo/2016/04/16/23/07/cat-1333926_150.jpg"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`ColorCard renders an li element 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+/>
+`;
+
+exports[`ImageCard renders an li with one image child and one anchor element 1`] = `
+<li>
+  <a
+    href={undefined}
+  >
+    <img
+      alt={undefined}
+      src={undefined}
+    />
+  </a>
+</li>
+`;
