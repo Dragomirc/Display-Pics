@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ColorCards 1`] = `
+<li
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+/>
+`;

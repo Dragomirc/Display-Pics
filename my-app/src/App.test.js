@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import renderer from "react-test-rendered";
+import ColorCardList from "./Components/ColorCardList.react";
+import ColorCard from "./Components/ColorCard.react";
+import App from "./Components/App";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+test(`<App /> should render with reuired props`, () => {
+  const app = renderer.create(<App info={() => 1} images={{}} />).toJSON();
+  expect(app).toMatchSnapshot();
 });
