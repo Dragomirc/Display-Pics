@@ -1,36 +1,42 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders 4 x ColorCards 1`] = `
-<ul>
+<ul
+  className="sc-bwzfXH fRFHuB"
+>
   <li
+    className="sc-bdVaJa ezBNpp"
     onClick={[Function]}
     style={
       Object {
-        "backgroundColor": "red",
+        "backgroundColor": "#CD5334",
       }
     }
   />
   <li
+    className="sc-bdVaJa ezBNpp"
     onClick={[Function]}
     style={
       Object {
-        "backgroundColor": "yellow",
+        "backgroundColor": "#FFFD66",
       }
     }
   />
   <li
+    className="sc-bdVaJa ezBNpp"
     onClick={[Function]}
     style={
       Object {
-        "backgroundColor": "green",
+        "backgroundColor": "#C2F970",
       }
     }
   />
   <li
+    className="sc-bdVaJa ezBNpp"
     onClick={[Function]}
     style={
       Object {
-        "backgroundColor": "purple",
+        "backgroundColor": "#007EA7",
       }
     }
   />
@@ -38,135 +44,191 @@ exports[`App renders 4 x ColorCards 1`] = `
 `;
 
 exports[`App renders without crashing 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "maxWidth": 640,
+    }
+  }
+>
+  <div
+    className="sc-ifAKCX kOzlHD"
+  >
+    <h1
+      className="sc-EHOje cGYXBP"
+    >
+       Choose a color 
+    </h1>
+  </div>
   <div>
-    <ul>
+    <ul
+      className="sc-bwzfXH fRFHuB"
+    >
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "red",
+            "backgroundColor": "#CD5334",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "yellow",
+            "backgroundColor": "#FFFD66",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "green",
+            "backgroundColor": "#C2F970",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "purple",
+            "backgroundColor": "#007EA7",
           }
         }
       />
     </ul>
   </div>
   <div>
-    <ul />
+    <ul
+      className="sc-bxivhb bpAJSv"
+    />
   </div>
 </div>
 `;
 
 exports[`App should render with 5 x ImageCard components when the state is updated 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "maxWidth": 640,
+    }
+  }
+>
+  <div
+    className="sc-ifAKCX kOzlHD"
+  >
+    <h1
+      className="sc-EHOje cGYXBP"
+    >
+       Choose a color 
+    </h1>
+  </div>
   <div>
-    <ul>
+    <ul
+      className="sc-bwzfXH fRFHuB"
+    >
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "red",
+            "backgroundColor": "#CD5334",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "yellow",
+            "backgroundColor": "#FFFD66",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "green",
+            "backgroundColor": "#C2F970",
           }
         }
       />
       <li
+        className="sc-bdVaJa ezBNpp"
         onClick={[Function]}
         style={
           Object {
-            "backgroundColor": "purple",
+            "backgroundColor": "#007EA7",
           }
         }
       />
     </ul>
   </div>
   <div>
-    <ul>
-      <li>
+    <ul
+      className="sc-bxivhb bpAJSv"
+    >
+      <li
+        className="sc-htpNat dcPeku"
+      >
         <a
           href="https://pixabay.com/en/domestic-cat-little-cute-kitten-3133620/"
         >
           <img
-            alt={undefined}
+            alt="Reflecting domestic, cat, little"
             src="https://cdn.pixabay.com/photo/2018/02/06/00/20/domestic-3133620_150.jpg"
           />
         </a>
       </li>
-      <li>
+      <li
+        className="sc-htpNat dcPeku"
+      >
         <a
           href="https://pixabay.com/en/cat-red-cute-mackerel-tiger-sweet-3080965/"
         >
           <img
-            alt={undefined}
+            alt="Reflecting cat, red, cute"
             src="https://cdn.pixabay.com/photo/2018/01/13/23/28/cat-3080965_150.jpg"
           />
         </a>
       </li>
-      <li>
+      <li
+        className="sc-htpNat dcPeku"
+      >
         <a
           href="https://pixabay.com/en/cat-red-cute-mackerel-tiger-sweet-1652880/"
         >
           <img
-            alt={undefined}
+            alt="Reflecting cat, red, cute"
             src="https://cdn.pixabay.com/photo/2016/09/07/23/10/cat-1652880_150.jpg"
           />
         </a>
       </li>
-      <li>
+      <li
+        className="sc-htpNat dcPeku"
+      >
         <a
           href="https://pixabay.com/en/cat-red-sleep-cute-mackerel-tiger-3080966/"
         >
           <img
-            alt={undefined}
+            alt="Reflecting cat, red, sleep"
             src="https://cdn.pixabay.com/photo/2018/01/13/23/28/cat-3080966_150.jpg"
           />
         </a>
       </li>
-      <li>
+      <li
+        className="sc-htpNat dcPeku"
+      >
         <a
           href="https://pixabay.com/en/cat-wink-funny-fur-animal-red-1333926/"
         >
           <img
-            alt={undefined}
+            alt="Reflecting cat, wink, funny"
             src="https://cdn.pixabay.com/photo/2016/04/16/23/07/cat-1333926_150.jpg"
           />
         </a>
@@ -178,6 +240,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
 
 exports[`ColorCard renders an li element 1`] = `
 <li
+  className="sc-bdVaJa ezBNpp"
   onClick={[Function]}
   style={
     Object {
@@ -188,12 +251,14 @@ exports[`ColorCard renders an li element 1`] = `
 `;
 
 exports[`ImageCard renders an li with one image child and one anchor element 1`] = `
-<li>
+<li
+  className="sc-htpNat dcPeku"
+>
   <a
     href={undefined}
   >
     <img
-      alt={undefined}
+      alt="Reflecting undefined"
       src={undefined}
     />
   </a>

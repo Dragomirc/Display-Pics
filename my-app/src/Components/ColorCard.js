@@ -9,7 +9,7 @@ const fadein = keyframes`
 const Card = styled.li`
   padding: 1rem;
   margin: 1rem;
-  border: 3px dashed;
+  border: 3px dashed white;
   width: 5em;
   height: 5em;
   cursor: pointer;
@@ -25,10 +25,10 @@ const Card = styled.li`
     animation-delay: 0.9s;
   }
   &:nth-child(3) {
-    animation-delay: 1.4s;
+    animation-delay: 1.7s;
   }
   &:nth-child(4) {
-    animation-delay: 1.9s;
+    animation-delay: 2.4s;
   }
 `;
 const ColorCard = props => {

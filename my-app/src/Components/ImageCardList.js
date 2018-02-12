@@ -11,8 +11,8 @@ const List = styled.ul`
 const ImageCardList = ({ images: { hits = [] } }) => {
   const images = hits
     .slice(0, 5)
-    .map(({ previewURL, pageURL, id }) => (
-      <ImageCard previewURL={previewURL} key={id} url={pageURL} />
+    .map(({ previewURL, pageURL, id, tags }) => (
+      <ImageCard previewURL={previewURL} key={id} url={pageURL} tags={tags} />
     ));
 
   return <List>{images}</List>;

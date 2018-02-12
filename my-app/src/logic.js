@@ -27,13 +27,13 @@ const mapColor = color => {
   switch (color) {
     case "yellow":
       return "#FFFD66";
-
     case "red":
       return "#CD5334";
     case "green":
       return "#C2F970";
     case "purple":
       return "#007EA7";
+    default:
   }
 };
 module.exports = { generateSearchTerm, searchTerms, mapColor };
