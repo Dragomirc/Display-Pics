@@ -1,4 +1,4 @@
-## Display Pictures based
+## Display Pictures React-app
 
 A web application which displays pictures based on the color chosen by the user and on a search value randomly selected from a predifined array. The Pixabay’s image search API us ised: https://pixabay.com/api/docs/.
 
@@ -15,7 +15,8 @@ A web application which displays pictures based on the color chosen by the user 
 
 ### Instructions on how to run the tests
 
-`npm test`
+1.`npm test`
+
 
 ### Tech stack
 
