@@ -10,7 +10,6 @@ const Card = styled.li`
 `;
 
 const ImageCard = ({ previewURL, url, tags }) => {
-  console.log("These are", tags);
   return (
     <Card>
       <a href={url}>

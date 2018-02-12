@@ -5,7 +5,7 @@ exports[`App renders 4 x ColorCards 1`] = `
   className="sc-bwzfXH fRFHuB"
 >
   <li
-    className="sc-bdVaJa ezBNpp"
+    className="sc-bdVaJa bBrxzW"
     onClick={[Function]}
     style={
       Object {
@@ -14,7 +14,7 @@ exports[`App renders 4 x ColorCards 1`] = `
     }
   />
   <li
-    className="sc-bdVaJa ezBNpp"
+    className="sc-bdVaJa bBrxzW"
     onClick={[Function]}
     style={
       Object {
@@ -23,7 +23,7 @@ exports[`App renders 4 x ColorCards 1`] = `
     }
   />
   <li
-    className="sc-bdVaJa ezBNpp"
+    className="sc-bdVaJa bBrxzW"
     onClick={[Function]}
     style={
       Object {
@@ -32,7 +32,7 @@ exports[`App renders 4 x ColorCards 1`] = `
     }
   />
   <li
-    className="sc-bdVaJa ezBNpp"
+    className="sc-bdVaJa bBrxzW"
     onClick={[Function]}
     style={
       Object {
@@ -65,7 +65,7 @@ exports[`App renders without crashing 1`] = `
       className="sc-bwzfXH fRFHuB"
     >
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -74,7 +74,7 @@ exports[`App renders without crashing 1`] = `
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -83,7 +83,7 @@ exports[`App renders without crashing 1`] = `
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -92,7 +92,7 @@ exports[`App renders without crashing 1`] = `
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -132,7 +132,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
       className="sc-bwzfXH fRFHuB"
     >
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -141,7 +141,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -150,7 +150,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -159,7 +159,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
         }
       />
       <li
-        className="sc-bdVaJa ezBNpp"
+        className="sc-bdVaJa bBrxzW"
         onClick={[Function]}
         style={
           Object {
@@ -240,7 +240,7 @@ exports[`App should render with 5 x ImageCard components when the state is updat
 
 exports[`ColorCard renders an li element 1`] = `
 <li
-  className="sc-bdVaJa ezBNpp"
+  className="sc-bdVaJa bBrxzW"
   onClick={[Function]}
   style={
     Object {
