@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+
 import ColorCardList from "./ColorCardList";
 import ImageCardList from "./ImageCardList";
+import Header from "./Header";
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +18,8 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ maxWidth: 640 }}>
+        <Header />
         <div>
           <ColorCardList info={this.handleChange} />
         </div>
