@@ -1,6 +1,13 @@
 import React from "react";
 import ImageCard from "./ImageCard";
+import styled from "styled-components";
 
+const List = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+`;
 const ImageCardList = ({ images: { hits = [] } }) => {
   const images = hits
     .slice(0, 5)
@@ -8,7 +15,7 @@ const ImageCardList = ({ images: { hits = [] } }) => {
       <ImageCard previewURL={previewURL} key={id} url={pageURL} />
     ));
 
-  return <ul>{images}</ul>;
+  return <List>{images}</List>;
 };
 
 export default ImageCardList;
